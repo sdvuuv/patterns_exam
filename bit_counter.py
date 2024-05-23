@@ -1,6 +1,6 @@
 
 def main():
-    filename = '/usr/share/dict/words'
+    filename = '1.txt'
     bit_1_cnt = bit_0_cnt = 0
     with open(filename) as fh:
         for line in fh.readlines():
